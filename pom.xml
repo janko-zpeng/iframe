@@ -2,6 +2,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.1.4.RELEASE</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.iframe</groupId>
@@ -12,12 +17,12 @@
         <module>iframe-base</module>
         <module>iframe-api</module>
         <module>iframe-monitor</module>
+        <module>iframe-web</module>
     </modules>
 
     <properties>
         <version.disruptor>3.3.4</version.disruptor>
         <version.lombok>1.16.8</version.lombok>
-
     </properties>
     <dependencies>
         <dependency>
@@ -25,6 +30,15 @@
             <artifactId>lombok</artifactId>
             <version>${version.lombok}</version>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+        </dependency>
     </dependencies>
+
 
 </project>
