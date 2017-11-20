@@ -11,7 +11,11 @@
 
     <artifactId>iframe-web</artifactId>
     <name>iframe-webapp</name>
-    <packaging>war</packaging>
+    <modules>
+        <module>iframe-web-core</module>
+        <module>iframe-web-dev</module>
+    </modules>
+    <packaging>pom</packaging>
 
     <dependencies>
         <dependency>

@@ -1,4 +1,4 @@
-package com.iframe.web.controller;
+package com.iframe.web.core.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

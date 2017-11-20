@@ -1,4 +1,4 @@
-package com.iframe.web.main;
+package com.iframe.web.core;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
