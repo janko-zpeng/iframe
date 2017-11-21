@@ -12,5 +12,12 @@
     <groupId>com.iframe.web.dev</groupId>
     <artifactId>iframe-web-dev</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.iframe.web</groupId>
+            <artifactId>iframe-web-core</artifactId>
+            <version>${version.project}</version>
+        </dependency>
+    </dependencies>
 
 </project>

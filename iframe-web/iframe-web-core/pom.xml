@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.iframe.web.core</groupId>
+    <groupId>com.iframe.web</groupId>
     <artifactId>iframe-web-core</artifactId>
 
 
