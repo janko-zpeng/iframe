@@ -14,6 +14,7 @@
     <modules>
         <module>iframe-web-core</module>
         <module>iframe-web-dev</module>
+        <module>iframe-web-app</module>
     </modules>
     <packaging>pom</packaging>
 
