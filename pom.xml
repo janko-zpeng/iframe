@@ -18,12 +18,14 @@
         <module>iframe-api</module>
         <module>iframe-monitor</module>
         <module>iframe-web</module>
+        <module>iframe-core</module>
     </modules>
 
     <properties>
         <version.disruptor>3.3.4</version.disruptor>
         <version.lombok>1.16.8</version.lombok>
         <version.project>1.0-SNAPSHOT</version.project>
+        <version.iframe.core>1.0-SNAPSHOT</version.iframe.core>
     </properties>
     <dependencies>
         <dependency>
